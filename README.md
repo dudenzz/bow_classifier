@@ -4,6 +4,15 @@ This repository consists of a simple document -> document vector converter
 Entire converter was written in Python3
 The converted set of document files is compatible with the LibSVM standard
 
+Purpose of the repository:
+   Contents of this repository are a supplementary resources for the offensive language filter project done for the student team project laboratories in Politechnika Poznańska.
+
+Author:
+   Jakub Dutkiewicz
+    
+Additional notes:
+   Code is wrote from scratch in a literal sense. No ready methods are imported (such as document vectorisers from sklearn) are used. Only imported function, which completes a practical task is a word_tokenize from nltk.
+
 Required packages:
   nltk
   numpy
@@ -52,5 +61,30 @@ CREATING A WORDMAP WHICH CONSISTS OF WORD-IDENTIFIER PAIRS
     
     - etc. for all parameters
     
-    - if there are more token than the specified number (ntokens), the tokens are sorted in the "ctf times idf" order (descending) and only top ntokens tokens are selected, the rest is removed
+    - if there are more token than the specified number (ntokens), the tokens are sorted in the "ctf times idf" order (descending) and only top ntokens tokens are selected, the rest is removed (not implemented)
+     
+     -it is advised to tinker with the parameters in the convert.py code or come up with new ones and define them in the clean function in the wordmap.py file
+     
+5. Saving the wordmap to the file (it can be used later)
     
+6. Creating document vectors for each vector
+
+7. Shuffling the documents and splitting into train and test set
+
+Usage
+
+as some of the paths are hardcoded, you need to direct to the src directory first
+
+No wordmap file created (first use or new wordmap is to be created)
+
+python3 convert.py -wmc path_to_a_new_wordmap -d path_to_datafile
+
+Wordmap created (reproduction of results)
+
+python3 convert.py -lwm path_to_existing_wordmap -d path_to_datafile
+
+
+
+
+
+    - 
