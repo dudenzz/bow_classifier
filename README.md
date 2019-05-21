@@ -11,7 +11,7 @@ Author:
    Jakub Dutkiewicz
     
 Additional notes:
-   Code is wrote from scratch in a literal sense. No ready methods are imported (such as document vectorisers from sklearn) are used. Only imported function, which completes a practical task is a word_tokenize from nltk. The code is supposed to represent the basic idea.
+   Code is wrote from scratch in a literal sense. No ready methods (such as document vectorisers from sklearn) are used. Only imported function, which completes a practical task is a word_tokenize from nltk. The code is supposed to represent the basic idea.
 
 Required packages:
   nltk
