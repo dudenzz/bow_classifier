@@ -50,5 +50,7 @@ CREATING A WORDMAP WHICH CONSISTS OF WORD-IDENTIFIER PAIRS
     
     - if a token exceeded idf maximum (max_idf) it is removed
     
+    - etc. for all parameters
+    
     - if there are more token than the specified number (ntokens), the tokens are sorted in the "ctf times idf" order (descending) and only top ntokens tokens are selected, the rest is removed
     
