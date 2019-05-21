@@ -1,4 +1,4 @@
-#Bag of words convereter
+# Bag of words convereter
 
 This repository consists of a simple document -> document vector converter
 Entire converter was written in Python3
