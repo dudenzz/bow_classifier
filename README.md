@@ -11,7 +11,7 @@ Author:
    Jakub Dutkiewicz
     
 Additional notes:
-   Code is wrote from scratch in a literal sense. No ready methods are imported (such as document vectorisers from sklearn) are used. Only imported function, which completes a practical task is a word_tokenize from nltk.
+   Code is wrote from scratch in a literal sense. No ready methods are imported (such as document vectorisers from sklearn) are used. Only imported function, which completes a practical task is a word_tokenize from nltk. The code is supposed to represent the basic idea.
 
 Required packages:
   nltk
@@ -63,7 +63,7 @@ CREATING A WORDMAP WHICH CONSISTS OF WORD-IDENTIFIER PAIRS
     
     - if there are more token than the specified number (ntokens), the tokens are sorted in the "ctf times idf" order (descending) and only top ntokens tokens are selected, the rest is removed (not implemented)
      
-     -it is advised to tinker with the parameters in the convert.py code or come up with new ones and define them in the clean function in the wordmap.py file
+    - it is advised to tinker with the parameters in the convert.py code or come up with new ones and define them in the clean function in the wordmap.py file
      
      
 5. Saving the wordmap to the file (created wordmap can be used later)
@@ -72,17 +72,19 @@ CREATING DOCUMENT VECTORS AND TRAIN/TEST DATA
     
 6. Creating document vectors for each vector
 
+     - it is advised to tinker with the method of creating the document vectors
+
 7. Shuffling the documents and splitting into train and test set
 
 Usage
 
 as some of the paths are hardcoded, you need to direct to the src directory first
 
-No wordmap file created (first use or new wordmap is to be created)
+Use the following line if no wordmap file was created before or you want to create a new one(first use or new wordmap is to be created)
 
 python3 convert.py -wmc path_to_a_new_wordmap -d path_to_datafile
 
-Wordmap created (reproduction of results)
+Use this line if wordmap file was previously created and should be used (reproduction of results)
 
 python3 convert.py -lwm path_to_existing_wordmap -d path_to_datafile
 
