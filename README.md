@@ -81,7 +81,7 @@ CREATING DOCUMENT VECTORS AND TRAIN/TEST DATA
 Usage (as some of the paths are hardcoded, you need to direct to the src directory first):
 
 
-Use the following line if no wordmap file was created before or you want to create a new one(first use or new wordmap is to be created)
+Use the following line if no wordmap file was never created or you want to create a new one(first use or new wordmap is to be created)
 
          python3 convert.py -wmc path_to_a_new_wordmap -d path_to_datafile
 
