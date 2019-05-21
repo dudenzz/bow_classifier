@@ -65,7 +65,10 @@ CREATING A WORDMAP WHICH CONSISTS OF WORD-IDENTIFIER PAIRS
      
      -it is advised to tinker with the parameters in the convert.py code or come up with new ones and define them in the clean function in the wordmap.py file
      
-5. Saving the wordmap to the file (it can be used later)
+     
+5. Saving the wordmap to the file (created wordmap can be used later)
+    
+CREATING DOCUMENT VECTORS AND TRAIN/TEST DATA
     
 6. Creating document vectors for each vector
 
@@ -83,7 +86,7 @@ Wordmap created (reproduction of results)
 
 python3 convert.py -lwm path_to_existing_wordmap -d path_to_datafile
 
-
+Baseline accuracy: 85%
 
 
 
