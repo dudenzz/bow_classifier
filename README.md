@@ -46,5 +46,5 @@ CREATING A WORDMAP WHICH CONSISTS OF WORD-IDENTIFIER PAIRS
     - if a token didn't achieve minimal ctf (min_ctf) it is removed
     - if a token didn't appear in minimal number of documents (min_docs)
     - if a token exceeded idf maximum (max_idf) it is removed
-    - if there are more token than the specified number (ntokens), the tokens are sorted in the $ctf \cdot idf$ order (descending) and only top $ntokens$ tokens are selected
+    - if there are more token than the specified number (ntokens), the tokens are sorted in the :ctf times idf" order (descending) and only top ntokens tokens are selected, the rest is removed
     
