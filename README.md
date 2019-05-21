@@ -88,6 +88,15 @@ Use this line if wordmap file was previously created and should be used (reprodu
 
 python3 convert.py -lwm path_to_existing_wordmap -d path_to_datafile
 
+
+
+
+What to do once document vectors are created
+ 
+   1. Download a liblinear tool
+   2. Use train process to train the model
+   3. Use predict process to test the model
+
 Baseline accuracy: 85%
 
 
