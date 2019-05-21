@@ -1,8 +1,8 @@
 # Bag of words convereter
 
-This repository consists of a simple document -> document vector converter
-Entire converter was written in Python3
-The converted set of document files is compatible with the LibSVM standard
+This repository consists of a simple document -> document vector converter.
+Entire converter was written in Python3.
+The converted set of document files is compatible with the LibSVM standard.
 
 Purpose of the repository:
    Contents of this repository are a supplementary resources for the offensive language filter project done for the student team project laboratories in Politechnika Poznańska.
