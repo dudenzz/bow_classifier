@@ -16,6 +16,8 @@ Additional notes:
 Required packages:
   nltk
   numpy
+  
+  
 Required data:
   a semi cleaned csv file
 
