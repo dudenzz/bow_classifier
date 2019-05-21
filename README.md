@@ -76,17 +76,16 @@ CREATING DOCUMENT VECTORS AND TRAIN/TEST DATA
 
 7. Shuffling the documents and splitting into train and test set
 
-Usage
+Usage (as some of the paths are hardcoded, you need to direct to the src directory first):
 
-as some of the paths are hardcoded, you need to direct to the src directory first
 
 Use the following line if no wordmap file was created before or you want to create a new one(first use or new wordmap is to be created)
 
-python3 convert.py -wmc path_to_a_new_wordmap -d path_to_datafile
+         python3 convert.py -wmc path_to_a_new_wordmap -d path_to_datafile
 
 Use this line if wordmap file was previously created and should be used (reproduction of results)
 
-python3 convert.py -lwm path_to_existing_wordmap -d path_to_datafile
+         python3 convert.py -lwm path_to_existing_wordmap -d path_to_datafile
 
 
 
